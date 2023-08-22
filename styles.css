@@ -1,0 +1,14 @@
+#divContainer{
+background:blue;
+width:960px;
+height:960px;
+}
+
+div{
+    display:inline-block;
+    justify-content:center;
+    align-items: center;
+    height:60px;
+    width:60px;
+    color:rgb(0, 255, 13);
+}
