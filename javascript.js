@@ -1,12 +1,17 @@
 const divContainer = document.getElementById("divContainer");
 
-for(let i = 1; i < 257; i++){
+//Creates Coloums
+for(let i = 0; i < 4; i++){
 
-const div = document.createElement("div");
-div.style.background = "red";
+const divColoums = document.createElement("divColoums");
 
-div.innerHTML = i;
 console.log("Testing"+ i)
-divContainer.appendChild(div);
-}
+divContainer.appendChild(divColoums);
 
+//Creates Rows
+for(let i = 0; i < 4; i++){
+    const divRow = document.createElement("divRow");
+    console.log("Testing"+ i)
+    divColoums.appendChild(divRow);
+}
+}
