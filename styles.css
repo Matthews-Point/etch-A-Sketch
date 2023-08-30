@@ -9,15 +9,17 @@ flex-direction:row;
 divColoums{
 
     background:black;
-    transition: .3s ease-out;
+
     flex:1;
     display:flex;
     flex-direction:column;
-    transition: .3s ease-out;
+    transition: .3s;
+    
 }
 divRow{
     background:green;
     flex:1;
+    transition: .3s;
 }
 divRow:hover{
     background:yellow;
